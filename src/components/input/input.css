@@ -2,4 +2,40 @@
   display: flex;
   flex-direction: column;
   width: 50%;
+  justify-content: space-around;
+}
+
+#button-grid {
+  width: 90%;
+}
+
+#input-data input, #num-people input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#select-tip button {
+
+  background-color: hsl(183, 100%, 15%);
+
+  width: 100px;
+  margin: 10px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+} 
+
+#select-tip input {
+  width: 30px;
+  padding: 15px 32px;
+  margin: 10px;
+  
 }
