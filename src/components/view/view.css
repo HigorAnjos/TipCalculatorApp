@@ -1,0 +1,30 @@
+#view-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 15px;
+  justify-content: space-around;
+}
+
+#reset {
+  margin-top: 30px;
+}
+
+#reset input {
+  width: 90%;
+}
+
+#view-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+
+}
+
+.display {
+  font-family: 'Epilogue', sans-serif;;
+  font-size: 70px;
+}
