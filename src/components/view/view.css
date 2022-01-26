@@ -9,22 +9,48 @@
 }
 
 #reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
+  width: 90%;
 }
 
-#reset input {
+#reset button {
   width: 90%;
+  background-color: hsl(172, 67%, 45%);
+  height: 50px;
+  border-radius: 7px;
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#info {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
 }
 
 #view-amount {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
-  width: 300px;
+  margin: 5px
 
 }
 
 .display {
   font-family: 'Epilogue', sans-serif;;
   font-size: 70px;
+  color: hsl(172, 67%, 45%);
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
 }

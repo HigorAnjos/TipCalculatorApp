@@ -5,7 +5,7 @@ class View extends React.Component {
   render() {
     return (
       <div id="view-container">
-        <div>
+        <div id="info">
           <div id="view-amount">
             <div className="title">
               <h2>Tip Amount</h2>
