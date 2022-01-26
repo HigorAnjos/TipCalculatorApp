@@ -19,6 +19,7 @@
 #select-tip button {
 
   background-color: hsl(183, 100%, 15%);
+  border-radius: 7px;
 
   width: 100px;
   margin: 10px;
@@ -32,6 +33,13 @@
   font-weight: bold;
 
 } 
+
+#select-tip button:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+}
+
 
 #select-tip input {
   width: 30px;
