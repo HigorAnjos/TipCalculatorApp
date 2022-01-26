@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap') ;
+* {
+  font-family: 'Space Mono', monospace;
+}
+
 body {
   background-color: hsl(185, 41%, 84%);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Epilogue', sans-serif;
 }
