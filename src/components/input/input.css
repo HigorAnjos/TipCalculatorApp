@@ -19,6 +19,7 @@
   border-radius: 7px;
   box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
   height: 50px;
+  
 }
 
 #input-data input:focus, 
@@ -26,6 +27,7 @@
 #button-grid input:focus {
   border: 1px solid hsl(185, 41%, 84%);
   outline: none;
+  box-sizing: border-box;
 }
 
 #button-grid input {
@@ -46,18 +48,21 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
+  
 } 
 
 #select-tip button:hover {
   background-color: hsl(185, 41%, 84%);
   color: hsl(183, 100%, 15%);
   font-weight: bold;
+  box-sizing: border-box;
 }
 
 #select-tip input {
-  width: 30px;
-  padding: 15px 32px;
+  width: 100px;
+  height: 55px;
   margin: 10px;
+
 }
