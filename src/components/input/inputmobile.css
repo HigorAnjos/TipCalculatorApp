@@ -32,12 +32,12 @@
   width: 40px;
   padding: 12px 20px;
   margin: 5px 10px;
+  flex-grow: 1;
 }
 
 #select-tip {
   display: flex;
   flex-direction: column;
-
   width: 90%;
 }
 
@@ -53,6 +53,7 @@
   padding: 15px 32px;
   font-weight: bold;
   margin: 5px 10px;
+  flex-grow: 1;
 } 
 
 #select-tip button:hover {
