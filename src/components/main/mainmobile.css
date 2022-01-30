@@ -6,8 +6,3 @@
   margin: 10% 0;
 }
 
-@media(max-width: 320px) {
-  .container {
-    transform: scale(1);
-  }
-}

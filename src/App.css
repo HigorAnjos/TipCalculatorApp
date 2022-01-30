@@ -8,5 +8,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+
+}
+
+@media(max-width: 768px) {
+  body {
+    background-color: hsl(185, 41%, 84%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from './../input/input'
 import View from './../view/view'
-import './mainmobile.css'
+import './main.css'
 
 class Main extends React.Component {
   constructor () {
