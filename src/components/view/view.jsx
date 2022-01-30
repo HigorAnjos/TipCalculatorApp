@@ -1,5 +1,5 @@
 import React from 'react';
-import './view.css'
+import './viewmobile.css'
 
 class View extends React.Component {
   render() {
