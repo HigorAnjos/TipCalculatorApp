@@ -1,8 +1,9 @@
 #input-container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   justify-content: space-around;
+  padding: 30px;
 }
 
 #input-data input, #num-people input {
@@ -14,5 +15,49 @@
   border: none;
   border-radius: 7px;
   box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
 
+#button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+#select-tip input {
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  width: 40px;
+  padding: 12px 20px;
+  margin: 5px 10px;
+}
+
+#select-tip {
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+}
+
+#select-tip button {
+
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 7px;
+
+  border: none;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 32px;
+  font-weight: bold;
+  margin: 5px 10px;
+} 
+
+#select-tip button:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+  box-sizing: border-box;
 }
