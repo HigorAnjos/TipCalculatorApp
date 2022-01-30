@@ -10,6 +10,7 @@ class Main extends React.Component {
       bill: '',
       tip: '',
       people: '',
+      tipin: '',
     }
   }
 
@@ -19,12 +20,33 @@ class Main extends React.Component {
     });
   }
 
+  reset = () => {
+    this.setState({
+      bill: '',
+      tip: '',
+      people: '',
+      tipin: '',
+    })
+  }
+
   render() {
-    const { people, bill, tip } = this.state;
+    const { people, bill, tip, tipin } = this.state;
     return (
       <div className='container'>
-        <Input handleChange={ this.handleChange }/>
-        <View bill={ bill} tip={ tip } people={ people } />
+        <Input
+          tip={ tip }
+          tipin={ tipin }
+          people={ people }
+          bill={ bill}
+          handleChange={ this.handleChange }
+        />
+        <View
+          bill={ bill}
+          tipin={ tipin }
+          tip={ tip }
+          people={ people }
+          reset={ this.reset }
+        />
       </div>
     );
   }
