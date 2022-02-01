@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TipCalculatorApp/static/css/main.fd378cf2.css",
+    "main.css": "/TipCalculatorApp/static/css/main.3c770cdb.css",
     "main.js": "/TipCalculatorApp/static/js/main.d2dffdb0.js",
     "static/js/787.63ef395f.chunk.js": "/TipCalculatorApp/static/js/787.63ef395f.chunk.js",
     "index.html": "/TipCalculatorApp/index.html",
-    "main.fd378cf2.css.map": "/TipCalculatorApp/static/css/main.fd378cf2.css.map",
+    "main.3c770cdb.css.map": "/TipCalculatorApp/static/css/main.3c770cdb.css.map",
     "main.d2dffdb0.js.map": "/TipCalculatorApp/static/js/main.d2dffdb0.js.map",
     "787.63ef395f.chunk.js.map": "/TipCalculatorApp/static/js/787.63ef395f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd378cf2.css",
+    "static/css/main.3c770cdb.css",
     "static/js/main.d2dffdb0.js"
   ]
 }
