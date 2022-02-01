@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   margin-top: 30px;
   width: 90%;
 }
@@ -55,6 +56,8 @@
 .display {
   font-size: 60px;
   color: hsl(172, 67%, 45%);
+  width: 200px;
+  text-align: end;
 }
 
 .title {

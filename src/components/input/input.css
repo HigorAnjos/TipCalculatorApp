@@ -78,11 +78,10 @@
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
-    padding: 30px;
   }
   
   #input-data input, #num-people input {
-    width: 90%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -90,6 +89,9 @@
     border: none;
     border-radius: 7px;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  }
+  #num-people input {
+    margin-bottom: 30px;
   }
   
   #button-grid {
