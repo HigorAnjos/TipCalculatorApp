@@ -1,4 +1,6 @@
 # Tip Calculator App
+
+## [GitHub Pages 🙂](https://higoranjos.github.io/TipCalculatorApp/)
 <!-- 
 # Getting Started with Create React App
 

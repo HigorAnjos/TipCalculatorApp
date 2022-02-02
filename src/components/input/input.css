@@ -1,0 +1,144 @@
+#input-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+}
+
+#button-grid {
+  width: 90%;
+}
+
+#input-data input, #num-people input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  height: 50px;
+  
+}
+
+#input-data input:focus, 
+#num-people input:focus, 
+#button-grid input:focus {
+  border: 1px solid hsl(185, 41%, 84%);
+  outline: none;
+  /* box-sizing: border-box; */
+}
+
+#button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+#button-grid input {
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+#select-tip button {
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 7px;
+
+  width: 100px;
+  margin: 10px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  
+} 
+
+#select-tip button:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+#select-tip input {
+  width: 100px;
+  height: 55px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  #input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  #input-data input, #num-people input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  }
+  #num-people input {
+    margin-bottom: 30px;
+  }
+  
+  #button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  
+  #select-tip input {
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+    /* width: 30px; */
+    padding: 12px 20px;
+    margin: 5px 10px;
+    flex-grow: 1;
+    height: 30px;
+  }
+  
+  #select-tip {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  #select-tip button {
+  
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 7px;
+  
+    border: none;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 32px;
+    font-weight: bold;
+    margin: 5px 10px;
+    flex-grow: 1;
+  } 
+  
+  #select-tip button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+}
