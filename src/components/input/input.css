@@ -27,13 +27,14 @@
 #button-grid input:focus {
   border: 1px solid hsl(185, 41%, 84%);
   outline: none;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 #button-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 5px;
 }
 
 #button-grid input {
@@ -106,10 +107,11 @@
     border: none;
     border-radius: 7px;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
-    width: 40px;
+    /* width: 30px; */
     padding: 12px 20px;
     margin: 5px 10px;
     flex-grow: 1;
+    height: 30px;
   }
   
   #select-tip {
